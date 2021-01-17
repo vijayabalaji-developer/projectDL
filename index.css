@@ -64,7 +64,7 @@
 	display: grid;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 100px auto;
 }
 .bottom-grid-item{
 	background-color: green;
