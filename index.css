@@ -30,7 +30,7 @@
 
 
 .top{
-  background-image: url('title.jpg');
+  background-image: url('https://www.loyolacollege.edu/library/images/title.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 	display: grid;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-  grid-template-columns: auto 80%;
+  grid-template-columns: 200px auto;
 }
 .bottom-grid-item{
 	background-color: green;
