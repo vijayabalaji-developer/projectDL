@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-inner > h1{
+	color: #0E2170;
+	text-align: center;
+}
+
+.logo-inner {
+  font-size: 20px;
+	text-align: center;
+	width: 400px;
+  padding: 8px;
+}
+
+.logo img {
+	max-height: 35px !important;
+	padding: 7px;
+	width: auto;
+	float: left;
+}
+
+
+
+.top{
+  background-image: url('https://www.loyolacollege.edu/library/images/title.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+}
+.top__contents {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+}
+.top > .top__contents > h2,.top > .top__contents > p{
+  color: #fdc800;
+  text-shadow: 5px 4px 5px #002147;
+  font-weight: 700;
+}
+.top > .top__contents >p{
+  color: #ffffff;
+  font-size: 48px;
+    text-shadow: 5px 4px 5px #002147
+}
+
+.bottom-grid{
+  background-color: red;
+  height: 600px;
+	padding: 10px;
+	display: grid;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+  grid-template-columns: 300px auto;
+}
+.bottom-grid-item{
+	background-color: green;
+
+	font-size: 20px;
+	padding: 8px;
+	text-align: center;
+}
+
+.footer{
+	height: 50px;
+	width: auto;
+	background-color: pink;
+}
