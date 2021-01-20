@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+    <FORM NAME="search" METHOD="POST" ACTION="NewDigitalSearchResult.asp" >
+<CENTER>
+
+<TABLE BORDER="0" WIDTH="1" CELLPADDING="0" CELLSPACING="0" HEIGHT="187" style="line-height: 100%; border-collapse: collapse; border: 1px solid #003F7D; margin: 2; padding-left: 4; padding-right: 4; padding-top: 1; padding-bottom: 1" bordercolor="#of2e4f">
+
+       <td height="187" width="740">
+
+         <table border="0" width="96%" height="26">
+       <tr>
+         <td width="22%" height="22"><h1>Simple Search</h1></td>
+         
+       </tr>
+     </table>
+    <TABLE BORDER="0" WIDTH="639" HEIGHT="101" cellspacing="0" bordercolor="#008000" bordercolorlight="#008000" cellpadding="0" bordercolordark="#008000">
+      <TR>
+        <TD WIDTH="77" HEIGHT="21" align="center" bgcolor="#EFEFEF" >
+          <b>
+          <FONT size="1" face="Verdana">
+          &nbsp;&nbsp;&nbsp;&nbsp; Doc</FONT></b><b><font size="1" face="Verdana"> ID</font></b></TD>
+        <TD WIDTH="122" HEIGHT="21" COLSPAN="2" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><INPUT TYPE="text" NAME="rid" SIZE="28"></FONT></b></TD>
+        <TD WIDTH="215" HEIGHT="21" align="center" bgcolor="#EFEFEF" >
+          <b>
+          <FONT size="1" face="Verdana">
+          &nbsp;&nbsp;&nbsp;&nbsp; Subject</FONT></b></TD>
+        <TD WIDTH="433" HEIGHT="21" COLSPAN="2" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><INPUT TYPE="text" NAME="identifier" SIZE="29"></FONT></b></TD>
+      </TR>
+
+      <TR>
+        <TD WIDTH="77" HEIGHT="19" align="center" bgcolor="#EFEFEF" >
+          <b>
+          <FONT size="1" face="Verdana">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Title</FONT></b></TD>
+        <TD WIDTH="122" HEIGHT="19" COLSPAN="2" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><INPUT TYPE="text" NAME="Title" SIZE="28"></FONT></b></TD>
+        <TD WIDTH="215" HEIGHT="19" align="center" bgcolor="#EFEFEF" >
+          <b>
+          <FONT size="1" face="Verdana">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Author</FONT></b></TD>
+        <TD WIDTH="433" HEIGHT="19" COLSPAN="2" bgcolor="#EFEFEF" ><b><font face="Verdana" size="1"><INPUT TYPE="text" NAME="Creator" SIZE="29"></font></b></TD>
+      </TR>
+
+
+      <TR>
+        <TD WIDTH="77" HEIGHT="24" align="center" bgcolor="#EFEFEF" ><b><font size="1" face="Verdana">Collection</font></b></TD>
+        <TD WIDTH="122" HEIGHT="24" COLSPAN="2" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><INPUT TYPE="text" NAME="Subject" SIZE="28"></FONT></b></TD>
+        <TD WIDTH="215" HEIGHT="24" align="center" bgcolor="#EFEFEF" >
+          <b>
+          <FONT size="1" face="Verdana">
+          &nbsp;&nbsp;&nbsp; Publisher</FONT></b></TD>
+        <TD WIDTH="433" HEIGHT="24" COLSPAN="2" bgcolor="#EFEFEF" ><b><font face="Verdana" size="1"><INPUT TYPE="text" NAME="Publisher" SIZE="29"></font></b></TD>
+      </TR>
+
+
+      <tr>
+      <TD WIDTH="77" HEIGHT="27" align="center" bgcolor="#EFEFEF" ><b><font size="1" face="Verdana">&nbsp;&nbsp;&nbsp;
+        Domain</font></b></TD>
+        <TD WIDTH="122" HEIGHT="27" COLSPAN="2" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><INPUT TYPE="text" NAME="dept" SIZE="28"></FONT></b></TD>
+      <TD WIDTH="118" HEIGHT="27" align="center" bgcolor="#EFEFEF" ><b><font size="1" face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;
+        Keyword</font></b></TD>
+        <TD WIDTH="268" HEIGHT="27" COLSPAN="2" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><INPUT TYPE="text" NAME="Keyword" SIZE="29"></FONT></b></TD>
+
+
+      </tr>
+
+
+            <TR>
+        <TD WIDTH="77" HEIGHT="8" align="center" bgcolor="#EFEFEF" >
+          <b><FONT size="1" face="Verdana"> &nbsp;&nbsp;&nbsp; Format</FONT></b></TD>
+        <TD WIDTH="388" HEIGHT="8" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana"><SELECT SIZE="1" NAME="format">
+                  <OPTION VALUE="NO" SELECTED>------------------------------------------</OPTION>
+                  <!--<OPTION VALUE="txt">TXT</OPTION>
+                  <OPTION VALUE="doc">WORD FILE</OPTION>
+                  <OPTION VALUE="jpg">JPG</OPTION>
+                  <OPTION VALUE="gif">GIF</OPTION>
+                  <OPTION VALUE="dat">MOVIE FILE</OPTION>
+                  <OPTION VALUE="html">HTML</OPTION>
+                  <OPTION VALUE="htm">HTM</OPTION>
+                  <OPTION VALUE="pdf">PDF</OPTION>
+                  <OPTION VALUE="mp3">AUDIO FILE</OPTION>-->
+                  <OPTION VALUE="txt">TXT</OPTION>
+                  <OPTION VALUE="rft">RFT</OPTION>
+                  <OPTION VALUE="xls">XLS</OPTION>
+				  <OPTION VALUE="mdb">MDB</OPTION>
+                  <OPTION VALUE="doc">WORD FILE</OPTION>
+                  <OPTION VALUE="xml">XML</OPTION>
+                  <OPTION VALUE="ppt">PPT</OPTION>
+                  <OPTION VALUE="pps">PPS</OPTION>
+                  <OPTION VALUE="jpg">JPG</OPTION>
+                  <OPTION VALUE="gif">GIF</OPTION>
+                  <OPTION VALUE="dat">MOVIE FILE</OPTION>
+                  <OPTION VALUE="html">HTML</OPTION>
+                  <OPTION VALUE="htm">HTM</OPTION>
+                  <OPTION VALUE="pdf">PDF</OPTION>
+                  <OPTION VALUE="mp3">AUDIO FILE</OPTION>
+
+                </SELECT></FONT></b></TD>
+
+        <TD WIDTH="14" HEIGHT="8" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana">&nbsp;&nbsp;</FONT></b></TD>
+
+
+              <TD WIDTH="215" HEIGHT="8" bgcolor="#EFEFEF" ><b><FONT size="1" face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Type</FONT></b></TD>
+
+
+
+
+
+        <TD WIDTH="2" HEIGHT="8" bgcolor="#EFEFEF" ></TD>
+
+<TD WIDTH="425" HEIGHT="8" bgcolor="#EFEFEF" ><font face="Verdana" size="2"><SELECT SIZE="1" NAME="type">
+              <OPTION VALUE="NO" SELECTED>--------------------------------------------</OPTION>
+              <!--<OPTION VALUE="BOOK">BOOK</OPTION>
+              <OPTION VALUE="PATENT">PATENT</OPTION>
+              <OPTION VALUE="JOURNAL">JOURNAL</OPTION>
+              <OPTION VALUE="REPORT">REPORT</OPTION>
+              <OPTION VALUE="THESIS">THESIS</OPTION>
+              <OPTION VALUE="STANDARD">STANDARD</OPTION>-->
+                  <OPTION VALUE="ARTICLE">ARTICLE</OPTION>
+	               <OPTION VALUE="EBOOK">E-BOOK</OPTION>
+                  <OPTION VALUE="BOOK">BOOK</OPTION>
+                  <OPTION VALUE="PATENT">PATENT</OPTION>
+                  <OPTION VALUE="JOURNAL">JOURNAL</OPTION>
+                  <OPTION VALUE="REPORT">REPORT</OPTION>
+                  <OPTION VALUE="THESIS">THESIS</OPTION>
+                  <OPTION VALUE="STANDARD">STANDARD</OPTION>
+                  <OPTION VALUE="IMAGE">IMAGE</OPTION>
+                  <OPTION VALUE="ANIMATION">ANIMATION</OPTION>
+                  <OPTION VALUE="AUDIO">AUDIO</OPTION>
+                  <OPTION VALUE="VIDEO">VIDEO</OPTION>
+
+            </SELECT></font></TD>
+
+      </TR>
+</table>&nbsp;
+
+</center>
+   <table border="0" width="638" height="1%" cellspacing="0" cellpadding="0">
+     <tr>
+      <TD WIDTH="57" HEIGHT="1" ALIGN="center" bgcolor="#EFEFEF">
+        <p align="left">
+        <font face="Verdana" size="1"><b>Order by</b></font></p>
+      </td>
+<CENTER>
+          <td bgcolor="#EFEFEF" width="110" height="1"><font face="Verdana" size="1"><SELECT SIZE="1" NAME="order1">
+          <OPTION VALUE="NO">--------------------</OPTION>
+          <OPTION VALUE="DL_Rid">Rid</OPTION>
+          <OPTION VALUE="DL_Identifier">Identifier</OPTION>
+          <OPTION VALUE="DL_Title">Title</OPTION>
+          <OPTION VALUE="Subject">Subject</OPTION>
+          <OPTION VALUE="DL_Creator">Creator</OPTION>
+          <OPTION VALUE="DL_Publisher">Publisher</OPTION>
+          <OPTION VALUE="DL_Contributors">Contributor</OPTION>
+          <OPTION VALUE="DL_Date">Date</OPTION>
+          <OPTION VALUE="DL_Format">Format</OPTION>
+          <OPTION VALUE="DL_Type">Type</OPTION>
+          <OPTION VALUE="DL_Language">Language</OPTION>
+        </SELECT></font></td>
+ <td bgcolor="#EFEFEF" width="131" height="1"><font face="Verdana" size="1"><SELECT SIZE="1" NAME="order2">
+          <OPTION VALUE="NO">--------------------</OPTION>
+          <OPTION VALUE="DL_Rid">Rid</OPTION>
+          <OPTION VALUE="DL_Identifier">Identifier</OPTION>
+          <OPTION VALUE="DL_Title">Title</OPTION>
+          <OPTION VALUE="Subject">Subject</OPTION>
+          <OPTION VALUE="DL_Creator">Creator</OPTION>
+          <OPTION VALUE="DL_Publisher">Publisher</OPTION>
+          <OPTION VALUE="DL_Contributors">Contributor</OPTION>
+          <OPTION VALUE="DL_Date">Date</OPTION>
+          <OPTION VALUE="DL_Format">Format</OPTION>
+          <OPTION VALUE="DL_Type">Type</OPTION>
+          <OPTION VALUE="DL_Language">Language</OPTION>
+        </SELECT></font></td>
+<td bgcolor="#EFEFEF" width="158" height="1"><font face="Verdana" size="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp; <SELECT SIZE="1" NAME="order3">
+          <OPTION VALUE="NO">--------------------</OPTION>
+          <OPTION VALUE="DL_Rid">Rid</OPTION>
+          <OPTION VALUE="DL_Identifier">Identifier</OPTION>
+          <OPTION VALUE="DL_Title">Title</OPTION>
+          <OPTION VALUE="Subject">Subject</OPTION>
+          <OPTION VALUE="DL_Creator">Creator</OPTION>
+          <OPTION VALUE="DL_Publisher">Publisher</OPTION>
+          <OPTION VALUE="DL_Contributors">Contributor</OPTION>
+          <OPTION VALUE="DL_Date">Date</OPTION>
+          <OPTION VALUE="DL_Format">Format</OPTION>
+          <OPTION VALUE="DL_Type">Type</OPTION>
+          <OPTION VALUE="DL_Language">Language</OPTION>
+        </SELECT></font></td>
+<td bgcolor="#EFEFEF" width="148" height="1"> <font face="Verdana" size="1"> &nbsp;<SELECT SIZE="1" NAME="order4">
+          <OPTION VALUE="NO">--------------------</OPTION>
+	<OPTION VALUE="DL_Rid">Rid</OPTION>
+          <OPTION VALUE="DL_Identifier">Identifier</OPTION>
+          <OPTION VALUE="DL_Title">Title</OPTION>
+          <OPTION VALUE="Subject">Subject</OPTION>
+          <OPTION VALUE="DL_Creator">Creator</OPTION>
+          <OPTION VALUE="DL_Publisher">Publisher</OPTION>
+          <OPTION VALUE="DL_Contributors">Contributor</OPTION>
+          <OPTION VALUE="DL_Date">Date</OPTION>
+          <OPTION VALUE="DL_Format">Format</OPTION>
+          <OPTION VALUE="DL_Type">Type</OPTION>
+          <OPTION VALUE="DL_Language">Language</OPTION>
+         </SELECT></font></TD>
+    </tr>
+    </table>
+  <table width=642>
+  <tr>
+  <td width="634">
+    <p align="center"><font size="2" face="Arial" color="#0000FF">(Enter search string in one or more fields and click search)</font>
+  </tr>
+  </table>
+</center>
+       <p>&nbsp;<center><font face="Arial Black"><INPUT TYPE="submit" VALUE="Search" NAME="B1"> </font> <INPUT TYPE="reset" VALUE="Clear" NAME="B2"></center>
+       </p>
+</table>
+</FORM>
+  </body>
+</html>
